@@ -14,9 +14,13 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: .5em 0 1em 0;
   text-align: center;
+}
+
+h2 {
+  margin: 1em 0 0.75em 0;
 }
 
 ol li {
@@ -25,6 +29,21 @@ ol li {
 
 .container {
   margin: 0 2em;
+}
+
+a.home {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
